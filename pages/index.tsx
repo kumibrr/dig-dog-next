@@ -7,9 +7,11 @@ import PetsIcon from '@mui/icons-material/Pets';
 import LanguageSelector from '../components/languageSelector';
 import { Avatar, IconButton } from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { useRouter } from 'next/dist/client/router';
 
 const Home: NextPage = () => {
 	const t = useTranslations('index');
+	const router = useRouter();
 
 	return (
 		<div className={styles.container}>
@@ -29,6 +31,9 @@ const Home: NextPage = () => {
 				<div className={styles.languageSettings}>
 					<LanguageSelector></LanguageSelector>
 					<IconButton
+						onClick={() => {
+							router.push('/main', '/main');
+						}}
 						aria-label='select language and continue'
 						size='large'
 					>
