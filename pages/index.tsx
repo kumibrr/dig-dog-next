@@ -24,13 +24,9 @@ const Home: NextPage = () => {
 
 			<main className={styles.main}>
 				<h1 className={styles.title}>
-					{t('welcomeTo')}{' '}
-					<a>
-						DigD<a>o</a>g
-					</a>
-					<PetsIcon></PetsIcon>
+					{t('welcomeTo')} DigD<a>o</a>g<PetsIcon></PetsIcon>
 				</h1>
-				<div className='languageSettings'>
+				<div className={styles.languageSettings}>
 					<LanguageSelector></LanguageSelector>
 					<IconButton
 						aria-label='select language and continue'

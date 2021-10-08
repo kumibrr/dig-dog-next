@@ -35,16 +35,16 @@
 	flex-grow: 1;
 }
 
-.title a a {
+.title a {
 	text-decoration: none;
-	filter: drop-shadow(-2px 0px 0 #24f6f0) brightness(110%)
-		drop-shadow(2px 2px 0px #ff0000);
+	filter: drop-shadow(-3px 0px 0 #24f6f0) brightness(110%)
+		drop-shadow(3px 0px 0px #ff0000);
 }
 
 .title svg {
 	font-size: 3.3rem;
-	filter: drop-shadow(-4px -1px 0 #24f6f0) brightness(110%)
-		drop-shadow(4px 2px 0px #ff0000);
+	filter: drop-shadow(-5px -1px 0 #24f6f0) brightness(110%)
+		drop-shadow(5px 2px 0px #ff0000);
 }
 
 .title {
@@ -62,5 +62,6 @@
 }
 
 .languageSettings {
-	flex: auto;
+	display: flex;
+	align-items: center;
 }
