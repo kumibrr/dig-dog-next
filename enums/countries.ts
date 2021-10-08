@@ -1,13 +1,26 @@
 const countries: Array<Country> = [
-  { code: "uk", emoji: "🇬🇧", language: "English", name: "United Kingdom" },
-  { code: "es", emoji: "🇪🇸", language: "Español", name: "España" },
+	{
+		countryCode: 'uk',
+		emoji: '🇬🇧',
+		language: 'English',
+		languageCode: 'en',
+		name: 'United Kingdom',
+	},
+	{
+		countryCode: 'es',
+		emoji: '🇪🇸',
+		language: 'Español',
+		languageCode: 'es',
+		name: 'España',
+	},
 ];
 
-interface Country {
-  code: string;
-  name: string;
-  emoji: string;
-  language: string;
+export interface Country {
+	countryCode: string;
+	name: string;
+	emoji: string;
+	language: string;
+	languageCode: string;
 }
 
 export default countries;

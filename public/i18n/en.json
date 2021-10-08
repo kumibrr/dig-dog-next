@@ -1,8 +1,8 @@
 {
-  "index": {
-    "welcomeTo": "Welcome to"
-  },
-  "languageSelect": {
-    "selectLanguage": "Select a language"
-  }
+	"index": {
+		"welcomeTo": "Welcome to"
+	},
+	"languageSelect": {
+		"selectLanguage": "Select your language"
+	}
 }
